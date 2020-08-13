@@ -49,7 +49,7 @@ public class AppTest {
         // userにパスワードハッシュを設定
         user.setPwdHash(String.valueOf(hashedPw));        
 
-        assertTrue( user.isPwdValid("abcd") );
+        assertTrue( user.isPwdValid("1234") );
     }
 
     //パスワードのハッシュを設定し、誤ったパスワードをチェックするとfalse
